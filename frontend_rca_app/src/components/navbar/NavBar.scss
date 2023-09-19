@@ -1,0 +1,69 @@
+.navbar {
+  display: flex;
+  background-color: darkslateblue;
+  padding: 0.6rem;
+  align-items: center;
+  padding-inline: 2rem;
+  .left {
+    flex: 1;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .right {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+    .align {
+      display: flex;
+      align-items: center;
+      gap: 0.2rem;
+      color: white;
+      .offer_profile {
+        text-decoration: none;
+        color: white;
+      }
+      svg {
+        font-size: 1.2rem;
+      }
+      .contor {
+        position: relative;
+        text-align: center;
+        span {
+          position: absolute;
+          background-color: red;
+          width: 1.2rem;
+          height: 1.2rem;
+          border-radius: 50%;
+          top: -20px;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .user {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      .dropdown:hover {
+        cursor: pointer;
+      }
+      .dropdown-menu {
+        left: -160px;
+      }
+      span {
+        color: white;
+      }
+      img {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+}

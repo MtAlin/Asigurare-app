@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  background-color: darkslateblue;
+  padding: 0.6rem;
+  align-items: center;
+  padding-inline: 2rem;
+}
+.navbar .left {
+  flex: 1;
+}
+.navbar .left a {
+  color: white;
+  text-decoration: none;
+}
+.navbar .right {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  align-items: center;
+  gap: 2rem;
+}
+.navbar .right .align {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  color: white;
+}
+.navbar .right .align .offer_profile {
+  text-decoration: none;
+  color: white;
+}
+.navbar .right .align svg {
+  font-size: 1.2rem;
+}
+.navbar .right .align .contor {
+  position: relative;
+  text-align: center;
+}
+.navbar .right .align .contor span {
+  position: absolute;
+  background-color: red;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  top: -20px;
+  font-size: 12px;
+}
+.navbar .right .user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.navbar .right .user .dropdown:hover {
+  cursor: pointer;
+}
+.navbar .right .user .dropdown-menu {
+  left: -160px;
+}
+.navbar .right .user span {
+  color: white;
+}
+.navbar .right .user img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=NavBar.css.map */

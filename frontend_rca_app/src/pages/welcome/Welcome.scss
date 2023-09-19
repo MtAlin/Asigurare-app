@@ -1,0 +1,31 @@
+@import "../../utils/color.scss";
+.welcome {
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  .align_center {
+    height: 20rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    h1 {
+      font-size: 7rem;
+      margin: 0;
+    }
+  }
+  .buttons_align {
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+    button {
+      padding: 0.7rem;
+      width: 150px;
+      border: none;
+      font-weight: 500;
+    }
+  }
+}

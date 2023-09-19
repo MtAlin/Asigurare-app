@@ -1,0 +1,30 @@
+.welcome {
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+.welcome .align_center {
+  height: 20rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.welcome .align_center h1 {
+  font-size: 7rem;
+  margin: 0;
+}
+.welcome .buttons_align {
+  display: flex;
+  gap: 1rem;
+  margin: 0 auto;
+}
+.welcome .buttons_align button {
+  padding: 0.7rem;
+  width: 150px;
+  border: none;
+  font-weight: 500;
+}/*# sourceMappingURL=Welcome.css.map */
